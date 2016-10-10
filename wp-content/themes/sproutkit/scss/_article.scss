@@ -1,5 +1,6 @@
 .article {
 	padding: 2rem 1rem;
+	background-color: $white;
 	@include breakpoint (medium) {
 		padding-left: 0;
 		padding-right: 0;
@@ -88,6 +89,7 @@
 	.article-box {
 		height: 330px;
 		border: 1px solid $light-gray;
+		background-color: $white;
 		padding: 1rem;
 		img {
 			max-width: 36px;

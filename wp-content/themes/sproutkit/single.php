@@ -11,15 +11,13 @@ get_header();
 	$title = get_the_title();
 ?>
 <!--<section class="hero" style="<?php if($image != '') { ?> background: linear-gradient(90deg, rgba(51,51,51, 0.75) 10%, rgba(51,51,51, 0.75) 90%), url('<?php echo $image['url']; ?>') no-repeat fixed center;background-size: cover;" <?php } ?>">-->
-<section class="lead-single">
-	<div class="lead-container">
+<section class="hero">
 		<div class="row">
 			<div class="small-12 columns">
-				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-				<?php if($subtitle != '') echo '<h2 class="subheader">'.$subtitle.'</h2>'; ?>
+				<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
+				<?php if($subtitle != '') echo '<h3 class="subheader">'.$subtitle.'</h3>'; ?>
 			</div>
 		</div>
-	</div>
 </section>
 <section class="article">
 	<div class="row" data-equalizer data-equalize-on="medium">
@@ -82,7 +80,7 @@ get_header();
 			      	$pinterest = get_field('pinterest_description', $cat_post->ID);
 			        //$out .= '<li>';
 			        //$out .=  '<a href="'.get_permalink($cat_post->ID).'" title="'.wptexturize($cat_post->post_title).'"><img data-pin-nopin="true" title="'.$cat_post->post_title.'" alt="'.$cat_post->post_title.'" src="'.$pinterest.'"></a></li>';
-			        $out = '<div class="small-6 large-3 columns end"><div class="article-box"><div class=""><img src="https://s3-us-west-2.amazonaws.com/talentedunderachiever-master/wp-content/uploads/2016/10/09214323/mini-avatar.png" data-pin-nopin="true"></div><h3><a href="'.get_permalink($cat_post->ID).'" title="'.wptexturize($cat_post->post_title).'">'.wptexturize($cat_post->post_title).'</a></h3><p>'.$pinterest.'</p></div></div>';
+			        $out = '<div class="small-6 large-3 columns end"><div class="article-box"><div class=""><img src="https://s3-us-west-2.amazonaws.com/sproutkit-master/wp-content/uploads/2016/10/10034336/favicon.png" data-pin-nopin="true"></div><h3><a href="'.get_permalink($cat_post->ID).'" title="'.wptexturize($cat_post->post_title).'">'.wptexturize($cat_post->post_title).'</a></h3><p>'.$pinterest.'</p></div></div>';
 			        echo $out;
 			    }
 			    //$out = '<ul class="articles-list no-bullet">' . $out . '</ul>';

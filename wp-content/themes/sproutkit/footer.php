@@ -1,11 +1,7 @@
 		<footer>
 			<div class="row">
 				<div class="small-12 columns">
-					<p>&copy;<?php echo date('Y');?> Talented Underachiever <!--| <a href="/about">About</a> | <a href="/contact">Contact</a> | <a href="/affiliate-disclaimer">Affiliate Disclaimer</a> | <a href="/privacy-policy">Privacy Policy</a>--></p>
-					<ul class="social-media-list no-bullet">
-						<li><a href="http://twitter.com/talentedunder"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="https://www.pinterest.com/talentedunder/"><i class="fa fa-pinterest"></i></a></li>
-					</ul>
+					<p>&copy;<?php echo date('Y');?> SproutKit <!--| <a href="/about">About</a> | <a href="/contact">Contact</a> | <a href="/affiliate-disclaimer">Affiliate Disclaimer</a> | <a href="/privacy-policy">Privacy Policy</a>--></p>
 				</div>
 			</div>
 		</footer>

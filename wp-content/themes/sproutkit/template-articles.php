@@ -6,15 +6,13 @@ Template Name: Articles
 
 <?php get_header(); ?>
 
-<section class="lead-single">
-	<div class="lead-container">
+<section class="hero">
 		<div class="row">
 			<div class="small-12 columns">
-				<h1>Never Stop Learning</h1>
-				<h2 class="subheader">Once You Stop, You Die</h2>
+				<h2>Never Stop Learning</h2>
+				<h3 class="subheader">Once You Stop, You Die</h3>
 			</div>
 		</div>
-	</div>
 </section>
 <section class="article">
 	<div class="row">
@@ -30,7 +28,7 @@ Template Name: Articles
 			  	$pinterest = get_field('pinterest_description', $cat_post->ID);
 			    //$out .= '<li>';
 			    //$out .=  '<a href="'.get_permalink($cat_post->ID).'" title="'.wptexturize($cat_post->post_title).'"><img data-pin-nopin="true" title="'.$cat_post->post_title.'" alt="'.$cat_post->post_title.'" src="'.$pinterest.'"></a></li>';
-			    $out = '<div class="small-6 large-3 columns end"><div class="article-box"><div class=""><img src="https://s3-us-west-2.amazonaws.com/talentedunderachiever-master/wp-content/uploads/2016/10/09214323/mini-avatar.png" data-pin-nopin="true"></div><h3><a href="'.get_permalink().'" title="'.get_the_title().'">'.get_the_title().'</a></h3><p>'.$pinterest.'</p></div></div>';
+			    $out = '<div class="small-6 large-3 columns end"><div class="article-box"><div class=""><img src="https://s3-us-west-2.amazonaws.com/sproutkit-master/wp-content/uploads/2016/10/10034336/favicon.png" data-pin-nopin="true"></div><h3><a href="'.get_permalink().'" title="'.get_the_title().'">'.get_the_title().'</a></h3><p>'.$pinterest.'</p></div></div>';
 			    echo $out;
 			endwhile;
 			?>
