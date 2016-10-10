@@ -1,0 +1,105 @@
+.ck_form {
+	margin-top: 2rem !important;
+	max-width: 35rem;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	background-color: $oil !important;
+	color: $white !important;
+	border: 1px solid $oil !important;
+	padding: rem-calc(5) !important;
+	box-shadow: none !important;
+	font-family: $body-font-sans-serif !important;
+	.ck_form_content h3.ck_form_title {
+		color: $yellow !important;
+	}
+	.ck_description p {
+		font-weight: $global-weight-bold !important;
+	}
+	.ck_image {
+		margin-right: 10px;
+	}
+	.ck_label {
+		font-size: rem-calc(16);
+		font-family: $body-font-sans-serif;
+		color: $white !important;
+	}
+
+	.ck_control_group input {
+		border-radius: $global-radius !important;
+	}
+
+	.ck_subscribe_button {
+		background: $blue !important;
+		border-radius: $global-radius !important;
+		font-weight: $global-weight-bold !important;
+	}
+
+	.ck_guarantee {
+		display: none !important;
+	}
+}
+
+.reveal {
+	.ck_form {
+		margin-top: 0rem !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		background-color: $white !important;
+		color: $oil !important;
+		border: 1px solid $white !important;
+		padding: rem-calc(0) !important;
+		box-shadow: none !important;
+		font-family: $body-font-sans-serif !important;
+		img {
+			margin-bottom: 1rem;
+		}
+		.ck_email_field_group {
+			margin: 1rem 0;
+		}
+		.ck_form_content h3.ck_form_title {
+			color: $yellow !important;
+		}
+		.ck_description p {
+			font-weight: $global-weight-bold !important;
+		}
+		.ck_image {
+			margin-right: 10px;
+		}
+		.ck_label {
+			font-size: rem-calc(16);
+			font-family: $body-font-sans-serif;
+			color: $white !important;
+		}
+
+		.ck_control_group input {
+			border-radius: $global-radius !important;
+		}
+
+		.ck_subscribe_button {
+			background: $blue !important;
+			border-radius: $global-radius !important;
+			font-weight: $global-weight-bold !important;
+		}
+
+		.ck_guarantee {
+			display: none !important;
+		}
+
+		.button {
+			margin-bottom: 0;
+		}
+
+		h2 {
+			line-height: 1.2;
+			font-family: $body-font-serif;
+			font-style: italic;
+		}
+
+		.form-content {
+			padding: 0 1rem;
+		}
+	}
+	.close-button.white {
+			color: $white;
+		}
+}

@@ -1,0 +1,98 @@
+.content {
+	padding: 2rem 1rem;
+	@include breakpoint(large) {
+		padding: 2rem 2rem;
+	}
+	.callout {
+		border: 5px solid $oil;
+	}
+	.button {
+		font-weight: $global-weight-bold;
+		transition: 0.2 linear all;
+		&:hover {
+			background-color: $white;
+		}
+	}
+
+	img.framed {
+		border: 5px solid $oil;
+		max-width: 100%;
+		padding: rem-calc(5);
+	}
+	.sidebar {
+		border-left: 1px solid $smoke;
+		padding: 1rem;
+	}
+}
+
+#consultation {
+	@include breakpoint(large) {
+		h2 {
+			font-size: 3rem;
+			line-height: 1;
+		}
+	}
+}
+
+.content-white {
+	@extend .content;
+	background-color: $white;
+}
+.content-blue-green {
+	@extend .content;
+	background-color: rgba($blue-green, 0.85);
+	color: $white;
+}
+.content-smoke {
+	@extend .content;
+	background-color: $smoke;
+}
+.content-blue {
+	@extend .content;
+	background-color: rgba($blue, 0.75);
+	color: $white;
+}
+
+.content-yellow {
+	@extend .content;
+	background-color: $yellow;
+	border-top: 5px solid $oil;
+}
+
+.blog {
+	padding-top: 1rem;
+	strong {
+		background-color: $yellow;
+		padding-left: rem-calc(3);
+		padding-right: rem-calc(3);
+	}
+
+	.article-box {
+		border-bottom: 1px solid $smoke;
+		padding-bottom: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	p, h2, h3, ul, ol {
+		max-width: 40rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	h2 {
+		font-weight: $global-weight-bold;
+	}
+	h3 {
+		margin-top: 3rem;
+		font-weight: $global-weight-bold;
+	}
+	p, ul, ol {
+		font-size: rem-calc(20);
+	}
+}
+
+.testimonial {
+	text-align: center;
+	h2 {
+		font-weight: $global-weight-bold;
+	}
+}

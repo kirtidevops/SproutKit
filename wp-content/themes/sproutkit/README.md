@@ -1,0 +1,1 @@
+# Thrive/Strive WordPress Theme

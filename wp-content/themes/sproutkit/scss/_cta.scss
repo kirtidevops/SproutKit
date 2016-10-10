@@ -1,0 +1,80 @@
+.cta {
+	padding: 2rem 0;
+	background-color: $smoke;
+	.container {
+		padding: 2rem;
+		background-color: $white;
+		border: 1px solid $medium-gray;
+	}
+	h2, h3 {
+		line-height: 1.2;
+		font-family: $body-font-serif;
+	}
+	h2 {
+		margin-bottom: 1rem;
+	}
+	em {
+		font-family: $body-font-serif;
+		color: $blue;
+		@include breakpoint (small only) {
+			font-size: 1rem;
+		}
+	}
+	p em {
+		color: $oil;
+	}
+	.buttons {
+		margin-top: 2rem;
+	}
+	.button {
+		background-color: $blue;
+		border: 3px solid $white;
+		&:hover {
+			color: $oil;
+			background-color: $white;
+			border-color: $oil;
+		}
+	}
+	.button.white {
+		background-color: $oil;
+		color: $white;
+		&:hover {
+			color: $white;
+			background-color: $red;
+		}
+	}
+	.callout {
+		margin-bottom: 0;
+		border: none;
+		.button {
+			background-color: $oil !important;
+		}
+	}
+	p strong, li strong {
+		background-color: $yellow;
+		padding: rem-calc(3) 0;
+	}
+}
+
+.cta-red {
+	@extend .cta;
+	color: $white;
+	background-color: $red;
+	p {
+		font-weight: $global-weight-bold;
+	}
+	em {
+		color: $yellow !important;
+	}
+}
+
+.blue {
+	background-color: $blue;
+	color: $white;
+	em {
+		color: $yellow !important;
+	}
+	p {
+		font-weight: $global-weight-bold;
+	}
+}

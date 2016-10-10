@@ -1,0 +1,13 @@
+.profiles {
+	margin-bottom: 2rem;
+	.profile {
+		border: 1px solid $light-gray;
+		padding: 10px;
+		.profile-hero {
+			margin-bottom: 1rem;
+		}
+		p {
+			font-size: rem-calc(16);
+		}
+	}
+}

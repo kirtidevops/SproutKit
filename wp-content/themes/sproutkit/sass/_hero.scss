@@ -1,0 +1,39 @@
+.hero {
+	@include breakpoint(small) {
+		padding: 2rem 1rem;
+	}
+	@include breakpoint(large) {
+		padding: 4rem 2rem;
+		h2 {
+			font-size: 5rem;
+			line-height: 1;
+		}
+		h3 {
+			font-size: 3rem;
+			line-height: 1.2;
+		}
+	}
+	color: $white;
+	h2 {
+		font-weight: $global-weight-bold;
+	}
+	h3.subheader {
+		color: $white;
+	}
+
+	.call-to-action {
+		margin-top: 2rem;
+	}
+
+	.button {
+		font-weight: $global-weight-bold;
+		&:hover {
+			background-color: $white;
+		}
+	}
+}
+
+.pawsandpoops {
+	background: linear-gradient(90deg, rgba($oil, 0.5) 10%, rgba($oil, 0.5) 90%), url('/assets/img/pawsandpoops/m11.jpg') no-repeat center fixed;
+	background-size: cover;
+}

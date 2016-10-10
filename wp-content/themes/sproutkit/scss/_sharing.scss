@@ -1,0 +1,51 @@
+.sharing {
+	background-color: $smoke;
+	padding: 2rem 0;
+	h2 {
+		line-height: 1.2;
+		margin-bottom: 2rem;
+		border-bottom: 3px double $medium-gray;
+		border-top: 3px double $medium-gray;
+		padding: 2rem;
+		font-family: $body-font-serif;
+		font-style: italic;
+	}
+	h3 {
+		font-family: $body-font-serif;
+		font-style: italic;
+	}
+	img {
+		padding: rem-calc(10);
+		background-color: $white;
+		margin-bottom: 2rem;
+	}
+
+	a.button {
+		background: $yellow;
+		color: $white;
+		margin-bottom: 0;
+		border: 3px solid $white;
+		&:hover {
+			background-color: $oil;
+		}
+	}
+	p {
+		margin-bottom: 2rem;
+	}
+	em {
+		color: $blue;
+	}
+
+	.pinterest-list {
+		li {
+			float: left;
+			width: 32%;
+			margin-right: 1%;
+			margin-bottom: 10px;
+			img {
+				padding: 5px;
+				margin-bottom: 0;
+			}
+		}
+	}
+}

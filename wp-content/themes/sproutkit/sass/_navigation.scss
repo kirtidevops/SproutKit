@@ -1,0 +1,38 @@
+.no-js {
+  @include breakpoint(small only) {
+    .top-bar {
+      display: none;
+    }
+  }
+
+  @include breakpoint(medium) {
+    .title-bar {
+      display: none;
+    }
+  }
+}
+
+.title-bar {
+	img {
+		width: rem-calc(32);
+		height: rem-calc(32);
+	}
+}
+
+.top-bar {
+	@extend .title-bar;
+	.menu-text {
+		font-size: rem-calc(28);
+	}
+	li.active a {
+		background: transparent;
+		color: $white;
+	}
+	a {
+		font-weight: $global-weight-bold;
+		color: $yellow;
+		&:hover {
+			color: $white;
+		}
+	}
+}

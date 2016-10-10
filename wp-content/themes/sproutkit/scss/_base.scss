@@ -1,0 +1,54 @@
+html, body {height: 100%;}
+$border-width: 15px;
+.border.right {
+    right: 0;
+    width: $border-width;
+    height: 200%;
+}
+
+.border.left {
+    left: 0;
+    width: $border-width;
+    height: 200%;
+}
+
+.border.top {
+    top: 0;
+    width: 100%;
+    height: $border-width;
+}
+
+.border.bottom {
+    bottom: 0;
+    width: 100%;
+    height: $border-width;
+}
+
+.border {
+    position: fixed;
+    z-index: 100;
+    background: $white;
+}
+body {
+	
+}
+
+body.basic {
+    background: linear-gradient(90deg, rgba($blue, 0.4) 10%, rgba($blue, 0.4) 90%), url('/assets/img/backgrounds/coffee-plant.jpg') no-repeat center fixed;
+    background-size: cover !important;
+}
+
+a {
+	transition: 0.2s linear all;
+	&.button {
+		border: 5px solid $oil;
+	}
+}
+
+form .button {
+	border: 5px solid $oil;
+}
+
+body.black {
+    background: $oil url('/assets/img/backgrounds/cartographer.png') repeat fixed;
+}

@@ -1,0 +1,11 @@
+footer {
+	background-color: $white;
+	padding: 1rem 0 0;
+	color: $oil;
+	a {
+		color: $blue;
+		&:hover {
+			color: $oil;
+		}
+	}
+}

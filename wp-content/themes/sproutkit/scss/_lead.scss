@@ -1,0 +1,76 @@
+.lead, .lead-single {
+	.lead-container {
+		background: linear-gradient(to left, rgba($oil, 0.85), rgba($oil, 0.85)), url('https://s3-us-west-2.amazonaws.com/obstacleco-assets/wp-content/uploads/2016/06/26200535/deskwork-bw1.jpg') fixed top no-repeat;
+		background-size: cover;
+		color: $white;
+		padding: 1rem 0 0.5rem;
+		border-bottom: 1px solid $light-gray;
+		@include breakpoint (medium) {
+			padding: 2rem 0;
+		}
+		h2 {
+			line-height: 1.2;
+			color: $white;
+			font-weight: 900;
+			@include breakpoint (medium) {
+				//font-size: 3rem;
+				line-height: 1;
+			}
+			@include breakpoint (large) {
+				font-size: 3rem;
+				line-height: 1;
+			}
+		}
+		.subheader {
+			line-height: 1.2;
+			font-family: $body-font-serif;
+			font-style: italic;
+		}
+		p {
+			max-width: 32rem;
+			font-size: rem-calc(24);
+			margin-top: 1rem;
+			margin-bottom: 0;
+		}
+		.button {
+			margin-bottom: 0;
+			margin-top: 1rem;
+			background: $blue;
+			color: $white;
+			padding: 1rem 1rem 0.9rem;
+			border: 3px solid $white;
+			&:hover {
+				color: $oil;
+				background-color: $yellow;
+			}
+		}
+	}
+}
+
+.lead-single {
+	h1 {
+		line-height: 1.2;
+		color: $white;
+		font-weight: 900;
+		font-style: normal;
+		@include breakpoint (medium) {
+			font-size: 3rem;
+			line-height: 1;
+		}
+		@include breakpoint (large) {
+			font-size: 4rem;
+			line-height: 1;
+		}
+	}
+	h2.subheader {
+		color: $white;
+		line-height: 1.2;
+		font-family: $body-font-serif;
+		font-style: italic;
+		@include breakpoint (medium) {
+			font-size: 2rem;
+			line-height: 1;
+		}
+		font-weight: normal;
+	}
+}
