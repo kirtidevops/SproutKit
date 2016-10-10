@@ -34,7 +34,7 @@ body {
 }
 
 body.basic {
-    background: linear-gradient(90deg, rgba($blue, 0.4) 10%, rgba($blue, 0.4) 90%), url('/assets/img/backgrounds/coffee-plant.jpg') no-repeat center fixed;
+    background: linear-gradient(90deg, rgba($blue, 0.4) 10%, rgba($blue, 0.4) 90%), url('https://s3-us-west-2.amazonaws.com/sproutkit-master/wp-content/uploads/2016/10/10034352/coffee-plant.jpg') no-repeat center fixed;
     background-size: cover !important;
 }
 
@@ -50,5 +50,5 @@ form .button {
 }
 
 body.black {
-    background: $oil url('/assets/img/backgrounds/cartographer.png') repeat fixed;
+    background: $oil url('https://s3-us-west-2.amazonaws.com/sproutkit-master/wp-content/uploads/2016/10/10034351/cartographer.png') repeat fixed;
 }
