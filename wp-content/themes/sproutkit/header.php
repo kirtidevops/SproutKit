@@ -13,6 +13,7 @@
 		<?php wp_head(); ?>
 		<script src="https://use.typekit.net/ykl1zpm.js"></script>
         <script>try{Typekit.load();}catch(e){}</script>
+        <meta name="p:domain_verify" content="a6bf948d8866834f20cb85db08de3548"/>
 	</head>
 	<body class="basic">
 		<div class="border top"></div>

@@ -29,6 +29,5 @@
 		  return t;
 		}(document, "script", "twitter-wjs"));</script>
 		<!-- Pinterest Tracking -->
-		<img height="1" width="1" style="display:none;" alt="" src="https://ct.pinterest.com/?tid=eKkKMad09Uz&value=0.00&quantity=1"/>
 	</body>
 </html>
