@@ -5,7 +5,7 @@ get_header();
 <?php 
 	$image = get_field('hero_image');
 	$subtitle = get_field('subtitle');
-	$pinterest5 = get_field('pinterest_5');
+	$pinterest = get_field('pinterest');
 	$pinterest_description = get_field('pinterest_description');
 	$question = get_field('discussion_question');
 	$title = get_the_title();
@@ -38,7 +38,7 @@ get_header();
 		<div class="small-12 columns">
 			<h2 class="">You don&rsquo;t get what you don&rsquo;t ask for so I&rsquo;m asking you to take a second to share <em><?php the_title(); ?></em> with your audience. They respect great content.</h2>
 		</div>
-			<?php if($pinterest5 != '') : ?>
+			<?php if($pinterest != '') : ?>
 				<div class="small-12 large-6 columns">
 					<h3><a href="https://www.pinterest.com/pin/create/button/" class="large button expanded" data-pin-do="buttonPin" data-pin-id="<?php echo $pinterest_id; ?>" data-pin-custom="true" data-pin-description="<?php echo $pinterest_description;?>" data-pin-media="<?php echo $pinterest;?>" data-pin-url="<?php the_permalink();?>"><i class="fa fa-pinterest"></i> Share on Pinterest</a></h3>
 					<p>Share this on Pinterest because I took the time to create these awesome images just so you could have something wonderful to pin.</p>
