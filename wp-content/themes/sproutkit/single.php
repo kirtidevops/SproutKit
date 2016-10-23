@@ -45,7 +45,7 @@ get_header();
 				</div>
 				<div class="small-12 large-6 columns">
 					<div class="image">
-						<img alt="<?php the_title();?>" src="<?php echo $pinterest5;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-id="<?php echo $pinterest_id; ?>" data-pin-description="<?php echo $pinterest_description; ?>">
+						<img alt="<?php the_title();?>" src="<?php echo $pinterest;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-id="<?php echo $pinterest_id; ?>" data-pin-description="<?php echo $pinterest_description; ?>">
 					</div>
 				</div>
 			<?php endif; ?>
