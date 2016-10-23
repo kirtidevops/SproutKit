@@ -1,5 +1,6 @@
 .content {
 	padding: 2rem 1rem;
+	background-color: $white;
 	@include breakpoint(large) {
 		padding: 2rem 2rem;
 	}
