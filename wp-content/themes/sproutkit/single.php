@@ -36,7 +36,7 @@ get_header();
 <section class="sharing">
 	<div class="row">
 		<div class="small-12 columns">
-			<h2 class="">You don&rsquo;t get what you don&rsquo;t ask for so I&rsquo;m asking you to take a second to share <?php the_title(); ?> with your audience. They respect great content.</h2>
+			<h2 class="">You don&rsquo;t get what you don&rsquo;t ask for so I&rsquo;m asking you to take a second to share <span class="post-title"><?php the_title(); ?></span> with your audience. They respect great content.</h2>
 		</div>
 			<?php if($pinterest != '') : ?>
 				<div class="small-12 large-6 columns">
@@ -50,7 +50,7 @@ get_header();
 				</div>
 			<?php endif; ?>
 		<div class="small-12 columns">
-			<h2 class="">Shared <?php the_title(); ?> with all of your peeps (those are your friends and family)?  Awesome! Thanks so much. Now, why don&rsquo;t you join the discussion below?</h2>
+			<h2 class="">Shared <span class="post-title"><?php the_title(); ?></span> with all of your peeps (those are your friends and family)?  Awesome! Thanks so much. Now, why don&rsquo;t you join the discussion below?</h2>
 		</div>
 	</div>
 </section>
