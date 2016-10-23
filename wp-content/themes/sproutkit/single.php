@@ -36,11 +36,11 @@ get_header();
 <section class="sharing">
 	<div class="row">
 		<div class="small-12 columns">
-			<h2 class="">You don&rsquo;t get what you don&rsquo;t ask for so I&rsquo;m asking you to take a second to share <em><?php the_title(); ?></em> with your audience. They respect great content.</h2>
+			<h2 class="">You don&rsquo;t get what you don&rsquo;t ask for so I&rsquo;m asking you to take a second to share <?php the_title(); ?> with your audience. They respect great content.</h2>
 		</div>
 			<?php if($pinterest != '') : ?>
 				<div class="small-12 large-6 columns">
-					<h3><a href="https://www.pinterest.com/pin/create/button/" class="large button expanded" data-pin-do="buttonPin" data-pin-id="<?php echo $pinterest_id; ?>" data-pin-custom="true" data-pin-description="<?php echo $pinterest_description;?>" data-pin-media="<?php echo $pinterest;?>" data-pin-url="<?php the_permalink();?>"><i class="fa fa-pinterest"></i> Share on Pinterest</a></h3>
+					<h3><a href="https://www.pinterest.com/pin/create/button/" class="large button expanded" data-pin-do="buttonPin" data-pin-id="<?php echo $pinterest_id; ?>" data-pin-custom="true" data-pin-description="<?php echo $pinterest_description;?>" data-pin-media="<?php echo $pinterest;?>" data-pin-url="<?php the_permalink();?>"><strong><i class="fa fa-pinterest"></i> Share on Pinterest</a></strong></h3>
 					<p>Share this on Pinterest because I took the time to create these awesome images just so you could have something wonderful to pin.</p>
 				</div>
 				<div class="small-12 large-6 columns">
@@ -50,7 +50,7 @@ get_header();
 				</div>
 			<?php endif; ?>
 		<div class="small-12 columns">
-			<h2 class="">Shared <em><?php the_title(); ?></em> with all of your peeps (those are your friends and family)?  Awesome! Thanks so much. Now, why don&rsquo;t you join the discussion below?<!--<br><i class="fa fa-arrow-down"></i>--></h2>
+			<h2 class="">Shared <?php the_title(); ?> with all of your peeps (those are your friends and family)?  Awesome! Thanks so much. Now, why don&rsquo;t you join the discussion below?</h2>
 		</div>
 	</div>
 </section>
