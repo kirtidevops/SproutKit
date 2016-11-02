@@ -36,7 +36,7 @@
 		          <li class="hide-for-small-only"><a href="/"><img src="https://s3-us-west-2.amazonaws.com/sproutkit-master/wp-content/uploads/2016/10/10034338/yellow-logo.png"></a></li>
 		          <li class="menu-text hide-for-small-only"><a href="/">SproutKit</a></li>
 		          <li><a href="/services">Services</a></li>
-		          <li><a href="/work">Our Work</a></li>
+		          <!--<li><a href="/work">Our Work</a></li>-->
 		          <li><a href="/blog">Blog</a></li>
 		      </ul>
 		    </div>
