@@ -28,7 +28,7 @@ Template Name: Services
 			<p><a href="/pinterest-takeover" class="button">Learn more</a></p>
 		</div>
 		<div class="small-12 large-6 columns" data-equivalent-watch>
-			<h2><a href="/content-service">Content Writing - Starts at $99</a></h2>
+			<h2><a href="/content-generation">Content Generation - Starts at $99</a></h2>
 			<p>Looking to add more content to your site? Let us write some pieces of content for you that will have a heavy emphasis on shareability and SEO.</p>
 			<p><a href="/content-service" class="button">Learn more</a></p>
 		</div>
