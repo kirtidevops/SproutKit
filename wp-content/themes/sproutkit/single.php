@@ -26,38 +26,31 @@ get_header();
 		</div>
 		<div class="small-12 large-4 columns">
 			<div class="sidebar" data-equalizer-watch>
-				<p>This is the sidebar and it&rsquo;s usually filled with stuff that distracts you from reading.</p>
-				<p>This site is about getting more out of yourself and that requires focus.</p>
-				<p>So focus.</p>
+				<h3>Welcome to SproutKit!</h3>
+				<img src="https://s3-us-west-2.amazonaws.com/obstacleco-assets/wp-content/uploads/2016/10/30224737/treeme.jpg" data-pin-nopin="true">
+				<p>Hi there!</p>
+				<p>My name is Paul Scrivens (Scrivs) and I&rsquo;m here to take your blog from hobby to full-time business.</p>
 			</div>
 		</div>
 	</div>
 </section>
 <section class="sharing">
 	<div class="row">
-		<div class="small-12 columns">
+		<div class="small-12 large-6 columns">
 			<h2 class="">You don&rsquo;t get what you don&rsquo;t ask for so I&rsquo;m asking you to take a second to share <span class="post-title"><?php the_title(); ?></span> with your audience. They respect great content.</h2>
+			<h3><a href="https://www.pinterest.com/pin/create/button/" class="large button expanded" data-pin-do="buttonPin" data-pin-id="<?php echo $pinterest_id; ?>" data-pin-custom="true" data-pin-description="<?php echo $pinterest_description;?>" data-pin-media="<?php echo $pinterest;?>" data-pin-url="<?php the_permalink();?>"><strong><i class="fa fa-pinterest"></i> Share on Pinterest</a></strong></h3>
 		</div>
-			<?php if($pinterest != '') : ?>
-				<div class="small-12 large-6 columns">
-					<h3><a href="https://www.pinterest.com/pin/create/button/" class="large button expanded" data-pin-do="buttonPin" data-pin-id="<?php echo $pinterest_id; ?>" data-pin-custom="true" data-pin-description="<?php echo $pinterest_description;?>" data-pin-media="<?php echo $pinterest;?>" data-pin-url="<?php the_permalink();?>"><strong><i class="fa fa-pinterest"></i> Share on Pinterest</a></strong></h3>
-					<p>Share this on Pinterest because I took the time to create these awesome images just so you could have something wonderful to pin.</p>
-				</div>
-				<div class="small-12 large-6 columns">
-					<div class="image">
-						<img alt="<?php the_title();?>" src="<?php echo $pinterest;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-id="<?php echo $pinterest_id; ?>" data-pin-description="<?php echo $pinterest_description; ?>">
-					</div>
-				</div>
-			<?php endif; ?>
-		<div class="small-12 columns">
-			<h2 class="">Shared <span class="post-title"><?php the_title(); ?></span> with all of your peeps (those are your friends and family)?  Awesome! Thanks so much. Now, why don&rsquo;t you join the discussion below?</h2>
+		<div class="small-12 large-6 columns">
+			<div class="image">
+				<img alt="<?php the_title();?>" src="<?php echo $pinterest;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-id="<?php echo $pinterest_id; ?>" data-pin-description="<?php echo $pinterest_description; ?>">
+			</div>
 		</div>
 	</div>
 </section>
 <section class="article">
 	<div class="row">
 		<div class="small-12 columns">
-			<h2 class="">More Great Content on Talented Underachiever</h2>
+			<h2 class="">More Great Content on SproutKit</h2>
 			<div class="row">
 			<?php
 			global $post;

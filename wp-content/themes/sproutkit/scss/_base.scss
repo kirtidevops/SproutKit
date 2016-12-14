@@ -1,6 +1,8 @@
 html, body {height: 100%;}
 $border-width: 15px;
-.border.right {
+
+@include breakpoint(large) {
+    .border.right {
     right: 0;
     width: $border-width;
     height: 200%;
@@ -28,6 +30,7 @@ $border-width: 15px;
     position: fixed;
     z-index: 100;
     background: $white;
+}
 }
 body {
 	

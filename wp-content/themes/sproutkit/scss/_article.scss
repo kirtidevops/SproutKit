@@ -8,11 +8,6 @@
 	h1 {
 		margin-bottom: 3rem;
 	}
-	div.callout, p, ul, ol, div.code {
-		max-width: 35rem;
-		margin-left: auto;
-		margin-right: auto;
-	}
 
 	h2, h3 {
 		line-height: 1.2;
@@ -52,10 +47,8 @@
 	}
 
 	blockquote {
-		max-width: 35rem;
 		border-width: 3px;
 		margin-bottom: 1.5rem;
-		font-style: italic;
 		padding-bottom: 1px;
 		p {
 			font-weight: $global-weight-bold;
@@ -167,10 +160,21 @@
 		}
 	}
 	.sidebar {
-		background-color: #fefefe;
 		border-left: 1px solid $smoke;
-		padding: 0 1rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		img {
+			border: 1px solid $smoke;
+			padding: 5px;
+			margin-bottom: 1rem;
+		}
 		p {
+			font-size: rem-calc(16);
+		}
+		h3 {
+			font-size: rem-calc(24);
+		}
+		td {
 			font-size: rem-calc(16);
 		}
 	}
