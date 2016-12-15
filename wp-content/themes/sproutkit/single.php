@@ -3,14 +3,12 @@ get_header();
 ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <?php 
-	$image = get_field('hero_image');
 	$subtitle = get_field('subtitle');
 	$pinterest = get_field('pinterest');
 	$pinterest_description = get_field('pinterest_description');
 	$question = get_field('discussion_question');
 	$title = get_the_title();
 ?>
-<!--<section class="hero" style="<?php if($image != '') { ?> background: linear-gradient(90deg, rgba(51,51,51, 0.75) 10%, rgba(51,51,51, 0.75) 90%), url('<?php echo $image['url']; ?>') no-repeat fixed center;background-size: cover;" <?php } ?>">-->
 <section class="hero">
 		<div class="row">
 			<div class="small-12 columns">
@@ -21,11 +19,14 @@ get_header();
 </section>
 <section class="article">
 	<div class="row" data-equalizer data-equalize-on="medium">
-		<div class="small-12 large-8 columns" data-equalizer-watch>
+		<div class="small-12 large-8 columns post" data-equalizer-watch>
 			<?php the_content(); ?>
 		</div>
 		<div class="small-12 large-4 columns">
 			<div class="sidebar" data-equalizer-watch>
+				<div class="image">
+					<img alt="<?php the_title();?>" src="<?php echo $pinterest;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-id="<?php echo $pinterest_id; ?>" data-pin-description="<?php echo $pinterest_description; ?>">
+				</div>
 				<h3>Welcome to SproutKit!</h3>
 				<img src="https://s3-us-west-2.amazonaws.com/obstacleco-assets/wp-content/uploads/2016/10/30224737/treeme.jpg" data-pin-nopin="true">
 				<p>Hi there!</p>
@@ -42,7 +43,7 @@ get_header();
 		</div>
 		<div class="small-12 large-6 columns">
 			<div class="image">
-				<img alt="<?php the_title();?>" src="<?php echo $pinterest;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-id="<?php echo $pinterest_id; ?>" data-pin-description="<?php echo $pinterest_description; ?>">
+				<img alt="<?php the_title();?>" src="<?php echo $pinterest;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>">
 			</div>
 		</div>
 	</div>

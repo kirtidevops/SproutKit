@@ -95,9 +95,9 @@ $grey         : #CDD3CA;
 
 $body-background: $white;
 $body-font-color: $oil;
-$body-font-family: "proxima-nova-alt", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-$body-font-serif: "proxima-nova-alt", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-$body-font-sans-serif: "proxima-nova-alt", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$body-font-family: "proxima-nova", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$body-font-serif: "proxima-nova", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$body-font-sans-serif: "proxima-nova", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
 
 $font-weight-light: 100;
@@ -139,7 +139,7 @@ $block-grid-max: 8;
 // ------------------
 
 $header-font-family: $body-font-family;
-$header-font-weight: $global-weight-normal;
+$header-font-weight: $global-weight-bold;
 $header-font-style: normal;
 $font-family-monospace: "source-code-pro", Consolas, 'Liberation Mono', Courier, monospace;
 $header-sizes: (
