@@ -2,10 +2,11 @@
 	background-color: $smoke;
 	padding: 2rem 0;
 	h2 {
+		background-color: $blue;
+		color: $white;
 		line-height: 1.2;
 		margin-bottom: 2rem;
-		border-bottom: 3px double $medium-gray;
-		border-top: 3px double $medium-gray;
+		border: 3px double $medium-gray;
 		padding: 2rem;
 		font-family: $body-font-serif;
 	}
@@ -31,7 +32,7 @@
 		margin-bottom: 2rem;
 	}
 	.post-title {
-		color: $blue;
+		color: $yellow;
 	}
 
 	.pinterest-list {
