@@ -1,10 +1,6 @@
 .article {
 	padding: 2rem 1rem;
 	background-color: $white;
-	@include breakpoint (medium) {
-		padding-left: 0;
-		padding-right: 0;
-	}
 	h1 {
 		margin-bottom: 3rem;
 	}

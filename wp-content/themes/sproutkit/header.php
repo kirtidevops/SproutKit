@@ -16,10 +16,6 @@
         <meta name="p:domain_verify" content="a6bf948d8866834f20cb85db08de3548"/>
 	</head>
 	<body class="basic">
-		<div class="border top"></div>
-		<div class="border left"></div>
-		<div class="border bottom"></div>
-		<div class="border right"></div>
 		<script
 		    type="text/javascript"
 		    async defer
