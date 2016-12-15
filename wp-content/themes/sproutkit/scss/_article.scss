@@ -82,6 +82,9 @@
 		border: 1px solid $light-gray;
 		background-color: $white;
 		padding: 1rem;
+		@include breakpoint(large) {
+			height: 375px;
+		}
 		img {
 			max-width: 36px;
 			max-height: 36px;
