@@ -24,6 +24,12 @@
 	p strong, li strong {
 		background-color: $yellow;
 		padding: rem-calc(3) 0;
+		&.blue {
+			border-bottom: 3px double $smoke;
+			background-color: $white;
+			color: $dark-gray;
+			display:block;
+		}
 	}
 
 	p, li {

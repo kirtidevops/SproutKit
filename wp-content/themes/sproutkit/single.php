@@ -20,6 +20,7 @@ get_header();
 <section class="article">
 	<div class="row" data-equalizer data-equalize-on="medium">
 		<div class="small-12 large-8 columns post" data-equalizer-watch>
+			<p><strong class="blue">Updated: <?php echo get_the_modified_date( $d ); ?></strong></p>
 			<?php the_content(); ?>
 		</div>
 		<div class="small-12 large-4 columns">
